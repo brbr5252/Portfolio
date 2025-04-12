@@ -46,7 +46,7 @@ const portfolioData = [
     id: 2,
     name: "Gym Mentor",
     image: ImageSixes,
-    link: "https://github.com/brbr5252/GymMentor.git",
+    link: "",
   },
   {
     id: 2,
