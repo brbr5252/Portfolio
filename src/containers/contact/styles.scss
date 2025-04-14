@@ -117,11 +117,56 @@
 
 
 @media only screen and (max-width : 768px){
+  
     .contact__content__form{
         text-align: center;
-
         &__controlswrapper{
             grid-template-columns: repeat(1,1fr);
+
+            div{
+                position: relative;
+                .inputTitle,
+                .inputName,
+                .inputEmail,
+                .inputDescription{
+                    width: 100%;
+                    border: 2px solid var(--yellow-theme-main-color);
+                    padding: 16px 20rem;
+                    transition: all 0.5s ease;
+                    margin-bottom: 50px;
+                    position: relative;
+                    background-color: transparent;
+                    color: var(--yellow-theme-sub-text-color);
+                }}
         }
     }
 }
+
+
+@media only screen and (max-width : 500px){
+  
+    .contact__content__form{
+        text-align: center;
+        &__controlswrapper{
+            grid-template-columns: repeat(1,1fr);
+
+            div{
+                position: relative;
+                .inputTitle,
+                .inputName,
+                .inputEmail,
+                .inputDescription{
+                    width: 100%;
+                    border: 2px solid var(--yellow-theme-main-color);
+                    padding: 16px 10rem;
+                    transition: all 0.5s ease;
+                    margin-bottom: 50px;
+                    position: relative;
+                    background-color: transparent;
+                    color: var(--yellow-theme-sub-text-color);
+                }}
+        }
+    }
+}
+
+
