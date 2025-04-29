@@ -1,0 +1,145 @@
+.skills {
+  // Full height of the screen
+  display: flex;
+  justify-content: center; // horizontal center (X)
+   // vertical center (Y)
+
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+
+  }
+
+  &__card {
+    background-color: #90b8df;
+    border-radius: 1.5rem;
+    padding: 4rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    h3 {
+      margin-top: 1rem;
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      font-size: 2rem;
+      color: #4b5563;
+    }
+  }
+
+  &__card--wide {
+    grid-column: span 2;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .skills__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills__card--wide {
+    grid-column: span 2;
+  }
+
+  .skills__card {
+    background-color: #90b8df;
+    border-radius: 1.5rem;
+    padding: 3rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    h3 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      font-size: 1.5rem;
+      color: #4b5563;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .skills__card {
+    background-color: #90b8df;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #4b5563;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .skills__container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills__card--wide {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 540px) {
+  .skills__container {
+    padding: 5rem;
+  }
+  .skills__card {
+    background-color: #90b8df;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      font-size: 1.5rem;
+      color: #4b5563;
+    }
+  }
+}

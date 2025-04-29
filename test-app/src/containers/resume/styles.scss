@@ -1,0 +1,108 @@
+.resume {
+    height: 100%;
+}
+
+.timeline {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+
+    &__experience,
+    &__education {
+        width: 50%;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__header-text {
+            display: inline-block;
+            color: whitesmoke;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1rem;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            border-bottom: 2px solid var(--yellow-theme-main-color);
+
+        }
+
+        &__header-text::before,
+        &__header-text::after {
+            position: absolute;
+            content: '';
+            width: 2px;
+            height: 5px;
+            background-color: var(--yellow-theme-main-color);
+            bottom: -1px;
+        }
+
+        &__header-text::before {
+            left: 0;
+        }
+
+        &__header-text::after {
+            right: 0;
+        }
+
+        &__vertical-timeline-element {
+            padding: 0px 0px 30px 0px;
+
+            &:last-child {
+                padding-bottom: 0px;
+            }
+        }
+
+        .vertical-timeline-element-title-wrapper {
+            display: flex;
+            align-items: center;
+
+            h3,h4 {
+                font-size: 20px;
+            }
+
+            h4{
+                margin-left: 8px;
+            }
+            ul{
+                font-size: 18px;
+                
+            }
+        }
+
+        .vertical-timeline-element-title-wrapper-description{
+            font-size: 16px;
+        }
+
+        .vertical-timeline-element-subtitle{
+            font-size: 18.5px;
+        }
+        .vertical-timeline-element-title-wrapper-ul {
+            padding-left: 1.5rem;       // Keeps the bullets inside the box
+            margin-top: 1rem;
+            line-height: 2.2rem;        // Increases line spacing
+            list-style-position: inside; // Ensures bullet is inside the border
+          }
+          
+          
+
+
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .timeline{
+        flex-direction: column;
+        &__experience, &__education{
+            width: 100%;
+            gap: 2rem;
+        }
+
+        &__education{
+            margin-top: 5rem;
+        }
+    }
+}
