@@ -89,8 +89,8 @@ const CardExample = () => {
           A small web site to show the form for each exercise on all types of muslce, and also calculate some need 
         </CCardText>
 
-        <CButton className="card-button" href="#">
-         Visit "on process"
+        <CButton className="card-button" >
+         On process
         </CButton>
       </CCardBody>
     </CCard>

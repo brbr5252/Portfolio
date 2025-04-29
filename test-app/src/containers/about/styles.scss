@@ -199,4 +199,41 @@
       }
     }
   }
+  @media only screen and (max-width: 375px) {
+    .about__content {
+      padding: 5px; /* reduce padding more */
+  
+      &__personalWrapper,
+      &__servicesWrapper {
+        width: 100%;
+      }
+  
+      &__servicesWrapper {
+        margin: 5px 0;
+  
+        &__innerContent {
+          width: 180px; /* even smaller circle */
+          height: 180px;
+          background: radial-gradient(80px, var(--yellow-theme-main-color), transparent 90%);
+  
+          div:nth-child(1) {
+            top: -25%;
+            left: 36%;
+          }
+          div:nth-child(2) {
+            right: -22%;
+            top: 37%;
+          }
+          div:nth-child(3) {
+            bottom: -24%;
+            left: 36%;
+          }
+          div:nth-child(4) {
+            left: -22%;
+            top: 37%;
+          }
+        }
+      }
+    }
+  }
   
