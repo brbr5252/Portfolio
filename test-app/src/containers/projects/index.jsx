@@ -22,10 +22,9 @@ const CardExample = () => {
     <CCard className="card-example">
       <CCardImage className="card-image" orientation="top" src={ImageThree} />
       <CCardBody className="card-body">
-        <CCardTitle className="card-title">Graduation Project</CCardTitle>
+        <CCardTitle className="card-title">ML Detect</CCardTitle>
         <CCardText className="card-text">
-          Some quick example text to build on the card title and make up the bulk of the card's
-          content.
+          Graduation project, its about how to detect DDoS attack by using machine learning technique.
         </CCardText>
 
         <CButton className="card-button" href="https://graduation-project-ebon.vercel.app/">
@@ -39,7 +38,7 @@ const CardExample = () => {
       <CCardBody className="card-body">
         <CCardTitle className="card-title">Gym Mentor</CCardTitle>
         <CCardText className="card-text">
-          App mobile by using java on android studio, to learn people the right form of each exercise.
+        A mobile application developed using Java on Android Studio. It's purpose is to help beginners learn the correct form of each exercise in the gym.
         </CCardText>
 
         <CButton className="card-button" href="https://github.com/brbr5252/GymMentor">
@@ -53,7 +52,10 @@ const CardExample = () => {
       <CCardBody className="card-body">
         <CCardTitle className="card-title">VNAT Research</CCardTitle>
         <CCardText className="card-text">
-        VPN/NONVPN NETWORK APPLICATION TRAFFIC DATASET by using machine learning algorithms.
+        This project applied machine learning on the VNAT dataset to classify VPN and Non-VPN traffic.
+
+
+.
         </CCardText>
 
         <a href= "..//..//Final Course Project Report Selected .pdf" download>
@@ -67,7 +69,7 @@ const CardExample = () => {
     <CCard className="card-example">
       <CCardImage className="card-image" orientation="top" src={ImageTwo} />
       <CCardBody className="card-body">
-        <CCardTitle className="card-title">Loan Approval Prediction</CCardTitle>
+        <CCardTitle className="card-title">Loan Approval </CCardTitle>
         <CCardText className="card-text">
           Loan approval prediction research by using machine learning algorthims.
         </CCardText>
@@ -86,11 +88,11 @@ const CardExample = () => {
       <CCardBody className="card-body">
         <CCardTitle className="card-title">Gym Exercise</CCardTitle>
         <CCardText className="card-text">
-          A small web site to show the form for each exercise on all types of muslce, and also calculate some need 
+          A small web site It's purpose is to help beginners learn the correct form of each exercise in the gym. 
         </CCardText>
 
         <CButton className="card-button" >
-         On process
+        In-progress
         </CButton>
       </CCardBody>
     </CCard>

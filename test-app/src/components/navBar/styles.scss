@@ -18,7 +18,6 @@
         padding: 0 2rem;
 
         &__logo {
-            margin-left: 5rem;
             color: var(--yellow-theme-main-color);
             cursor: pointer;
         }
@@ -61,6 +60,16 @@
 .nav-icon {
     display: none;
 }
+
+.navbar__container__menue__item__links {
+    display: block;        // ✅ makes it fill the parent li
+    width: 100%;           // ✅ takes full width
+    height: 100%;          // ✅ takes full height (if needed)
+    padding: 0.5rem;       // ✅ keeps your padding inside the link
+    color: var(--yellow-theme-main-color);
+    text-decoration: none;
+}
+
 
 @media only screen and (max-width: 768px) {
     .navbar {

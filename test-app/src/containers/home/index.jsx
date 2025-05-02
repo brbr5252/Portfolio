@@ -18,10 +18,12 @@ const Home = () => {
             <div className="home__text-wrapper">
                 <h1>
                     Hello, I'm Ibrahim Alhusaini
-                    <br />
-                    Full Stack Web Developer,
-                    <br />
-                    and Data Scientist & Machine Learning
+                    <br/>
+                    I am a full stack web developer 
+                    <br/>
+                    with a solid background in the fundamentals 
+                    <br/>
+                    of data science and machine learning.
                 </h1>
             </div>
 

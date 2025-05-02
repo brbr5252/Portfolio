@@ -10,7 +10,7 @@ import './styles.scss'
 const personalDetails = [
     {
         label: "Name",
-        value: "Ibrahem Adnan Alhusaini"
+        value: "Ibrahim Adnan Alhusaini"
     },
     {
         label: "Age",
@@ -18,7 +18,7 @@ const personalDetails = [
     },
     {
         label: "Address",
-        value: "Saudi Arabia"
+        value: "Dammam, Saudi Arabia"
     },
     {
         label: "Email",
@@ -57,7 +57,7 @@ const About = () => {
                         }}
                     >
 
-                        <h3> Full stack Web Developer, and Data Scientist & Machine Learning </h3>
+                        <h3> Full stack web development, Data science & Machine learning. </h3>
                         <p>{jobSummary}</p>
 
 
@@ -79,7 +79,7 @@ const About = () => {
                         <ul>
                             {
                                 personalDetails.map((item, i) => (
-                                    <li key={i}>
+                                    <li className="presonalInfo" key={i}>
                                         <span className="title">{item.label} </span>
                                         <span className="value">{item.value} </span>
                                     </li>
