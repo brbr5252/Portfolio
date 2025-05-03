@@ -7,7 +7,7 @@ const SocialLinks = () => {
   return (
     <div className="social-links">
       <div className="social-links__icons">
-        <a href="https://github.com/brbr5252" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/ibrahimAlhusaini" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
         <a href="https://www.linkedin.com/in/ibrahim-alhusaini-2177632b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank" rel="noopener noreferrer">
